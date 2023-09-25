@@ -23,6 +23,7 @@
       color: #FF3D00;
       transform: rotateY(70deg);
       animation-delay: .4s;
+      
     }
 
   @keyframes rotate {
@@ -70,3 +71,8 @@
       box-shadow: .2em -.2em 0 0 currentcolor;
     }
   }
+ 
+  .breed-select.ss-main{
+    width: 20%;
+  }
+ 
