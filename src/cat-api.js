@@ -7,7 +7,6 @@ axios.defaults.headers.common["x-api-key"] = "live_zpHZJryc8jZSMOKlS0o6oC7RtCLwT
 export  function fetchBreeds() {
    
     const url = `https://api.thecatapi.com/v1/breeds`;
-  //  const api_key = "live_zpHZJryc8jZSMOKlS0o6oC7RtCLwTPfisNLPVimSooL3DRtQQiHyprH6BEG5hGjJ"
     // axios.get(`https://api.thecatapi.com/v1/breeds`)
     return  fetch(`${url}?api_key=${"x-api-key"}`)
     .then(response => {
